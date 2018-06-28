@@ -1,0 +1,30 @@
+{
+    "name": "donbidon/lib-array",
+    "type": "library",
+    "description": "Arrays related library",
+    "homepage": "https://github.com/donbidon/lib-array",
+    "keywords": ["php", "library", "array"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":     "donbidon",
+            "homepage": "http://donbidon.rf.gd/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "donbidon\\Lib\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "donbidon\\Lib\\": "tests"
+        }
+    }
+}
